@@ -44,3 +44,5 @@ numbers[2] = 45;
 9. Function Prototype. A function prototype is simply the declaration of a function that specifies function's name, parameters and return type. It doesn't contain function body. A function prototype gives information to the compiler that the function may later be used in the program. The function prototype is not needed if the user-defined function is defined before the **main()** function.
 
 10. All preprocessor commands begin with a hash mark(#) in column one.
+
+11. The code to extract data from bit fields is relatively large and slow. Unless storage is a problem, **packed structures** should not be used.
