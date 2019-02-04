@@ -46,3 +46,26 @@ numbers[2] = 45;
 10. All preprocessor commands begin with a hash mark(#) in column one.
 
 11. The code to extract data from bit fields is relatively large and slow. Unless storage is a problem, **packed structures** should not be used.
+
+12. Pointer Operators
+
+| Operator | Meaning |
+|:--------:|---------|
+|`*`       | Dereference (given a pointer, get the thing referenced) |
+|`&`       | Address of (given a thing, point to it) |
+
+```c
+int thing;
+thing = 4;
+
+int *thing_ptr;
+thing_ptr = &thing
+```
+
+13. Special pointer `NULL`. It points nothing.
+
+14. const Pointers
+
+```c
+const char *const title_ptr = "Title";
+```
